@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AuthenticationHpActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_auth"
+        android:layout_width="320dp"
+        android:layout_height="220dp"
+        app:cardCornerRadius="@dimen/_30dp"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/tv_verification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/verification"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/avanir5"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_24sp"
+            android:layout_marginTop="@dimen/_20dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/et3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15dp"
+            android:layout_marginEnd="@dimen/_15dp"
+            android:textColorHint="@android:color/black"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_10dp">
+
+            <EditText
+                android:id="@+id/et_authentication_hp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:autofillHints="@string/phone_number"
+                android:ems="10"
+                android:fontFamily="@font/avanir3"
+                android:hint="@string/phone_number"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:textColorLink="@android:color/black"
+                android:gravity="center"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/tv_authentication_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:textSize="18sp"
+            android:fontFamily="@font/avanir5"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_70dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Drivon Design</string>
+    <string name="image">image</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="don_t_have_account">Don’t Have Account?</string>
+    <string name="create_now">Create Now</string>
+    <string name="sign_in">Sign In</string>
+    <string name="or">Or</string>
+    <string name="sign_in_with_google">Sign In With Google</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="let_s_get_started">Let’s Get Started!</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="verification">Verification</string>
+    <string name="submit">Submit</string>
+    <string name="title_home">Home</string>
+    <string name="title_history">History</string>
+    <string name="title_profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cileungsi_bogor">Cileungsi Bogor</string>
+    <string name="your_place">Your Place</string>
+    <string name="destination_location">Destination Location</string>
+    <string name="price">Price</string>
+    <string name="rp_50_000">Rp 50.000</string>
+    <string name="estimated_time">Estimated Time</string>
+    <string name="_3_minute">3 Minutes</string>
+    <string name="order">Order Now</string>
+    <string name="please_waiting_for_driver">Please Waiting For Drive...</string>
+    <string name="driver_name">Driver Name</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

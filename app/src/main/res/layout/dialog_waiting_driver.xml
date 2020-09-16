@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_40dp">
+
+    <ImageView
+        android:id="@+id/iv_dialog_waiting"
+        android:layout_width="@dimen/_170dp"
+        android:layout_height="@dimen/_170dp"
+        android:background="@drawable/illust_driver"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/image" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/please_waiting_for_driver"
+        android:layout_below="@id/iv_dialog_waiting"
+        android:gravity="center"
+        android:textSize="@dimen/_24sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/avanir5"
+        android:layout_marginTop="@dimen/_30dp"/>
+
+</RelativeLayout>
